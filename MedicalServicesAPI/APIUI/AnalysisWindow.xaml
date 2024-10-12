@@ -9,6 +9,11 @@
 		Title="AnalysisWindow"
 		Height="450" Width="800">
 	<Grid>
-
+		<TextBox Margin="0,7.5" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="25" />
+		<DataGrid AutoGenerateColumns="False" Margin="0,40,0,0">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Название анализа" Binding="{Binding Name}" />
+			</DataGrid.Columns>
+		</DataGrid>
 	</Grid>
 </Window>

@@ -53,7 +53,7 @@ namespace APIUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/APIUI;component/analysiswindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/APIUI;V1.0.0.0;component/analysiswindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AnalysisWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

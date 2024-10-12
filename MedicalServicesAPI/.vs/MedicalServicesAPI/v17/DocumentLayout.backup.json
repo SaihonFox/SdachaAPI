@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\analysiswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\analysiswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 183,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,19 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "APIUI\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\MainWindow.xaml",
-              "RelativeToolTip": "APIUI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-12T13:16:39.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AnalysisWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\AnalysisWindow.xaml.cs",
               "RelativeDocumentMoniker": "APIUI\\AnalysisWindow.xaml.cs",
@@ -79,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AnalysisWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\AnalysisWindow.xaml",
               "RelativeDocumentMoniker": "APIUI\\AnalysisWindow.xaml",
@@ -91,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "MedicalServicesAPI\\Controllers\\AuthController.cs",
@@ -99,8 +83,7 @@
               "RelativeToolTip": "MedicalServicesAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T11:24:22.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T11:24:22.41Z"
             }
           ]
         }
