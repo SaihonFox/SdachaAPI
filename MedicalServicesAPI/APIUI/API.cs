@@ -16,4 +16,14 @@ class API
 			return JsonConvert.DeserializeObject<user>(await result.Content.ReadAsStringAsync());
 		return null;
 	}
+
+	public static List<analysis> AnalysesList()
+	{
+		using var client = new HttpClient();
+		var result = client.GetAsync("https://localhost:7122/Analyses/list").Result;
+
+		if (result.StatusCode == HttpStatusCode.OK)
+			return JsonConvert.DeserializeObject<List<analysis>>(result.Content.ReadAsStringAsync().Result);
+		return null;
+	}
 }

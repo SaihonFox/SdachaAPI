@@ -106,3 +106,4 @@ C:\Users\ILNAR\Documents\Колледж\4 Курс\ЛР\Диплом\Programs\AP
 C:\Users\ILNAR\Documents\Колледж\4 Курс\ЛР\Диплом\Programs\API Test\MedicalServicesAPI\APIUI\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\ILNAR\Documents\Колледж\4 Курс\ЛР\Диплом\Programs\API Test\MedicalServicesAPI\APIUI\obj\Debug\net8.0-windows\AnalysisWindow.g.cs
 C:\Users\ILNAR\Documents\Колледж\4 Курс\ЛР\Диплом\Programs\API Test\MedicalServicesAPI\APIUI\obj\Debug\net8.0-windows\AnalysisWindow.baml
+C:\Users\ILNAR\Documents\Колледж\4 Курс\ЛР\Диплом\Programs\API Test\MedicalServicesAPI\APIUI\obj\Debug\net8.0-windows\APIUI.sourcelink.json

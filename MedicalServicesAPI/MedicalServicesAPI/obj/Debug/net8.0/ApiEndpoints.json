@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "MedicalServicesAPI.Controllers.AnalysesController",
+    "Method": "Get",
+    "RelativePath": "Analyses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MedicalServicesAPI.Model.analysis",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MedicalServicesAPI.Controllers.AnalysesController",
+    "Method": "Get",
+    "RelativePath": "Analyses/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IList\u00601[[MedicalServicesAPI.Model.analysis, MedicalServicesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MedicalServicesAPI.Controllers.AuthController",
     "Method": "Get",
     "RelativePath": "Auth/login",

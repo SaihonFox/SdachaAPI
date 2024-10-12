@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\analysiswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\analysiswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\analysiswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\analysiswindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A558A435-F6F4-47D8-9139-CB85BA875AA2}|MedicalServicesAPI\\MedicalServicesAPI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\medicalservicesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A558A435-F6F4-47D8-9139-CB85BA875AA2}|MedicalServicesAPI\\MedicalServicesAPI.csproj|solutionrelative:medicalservicesapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|c:\\users\\ilnar\\documents\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u043A\u0443\u0440\u0441\\\u043B\u0440\\\u0434\u0438\u043F\u043B\u043E\u043C\\programs\\api test\\medicalservicesapi\\apiui\\analysiswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2B5B11F2-CEE2-4462-A9C1-8D1FFB5918B2}|APIUI\\APIUI.csproj|solutionrelative:apiui\\analysiswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 183,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +58,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "API.cs",
+              "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\API.cs",
+              "RelativeDocumentMoniker": "APIUI\\API.cs",
+              "ToolTip": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\API.cs",
+              "RelativeToolTip": "APIUI\\API.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:22:33.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "APIUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "APIUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T16:13:29.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "APIUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\MainWindow.xaml",
+              "RelativeToolTip": "APIUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-12T16:08:41.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AnalysisWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\AnalysisWindow.xaml.cs",
               "RelativeDocumentMoniker": "APIUI\\AnalysisWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\AnalysisWindow.xaml.cs",
               "RelativeToolTip": "APIUI\\AnalysisWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T12:55:56.736Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AnalysisWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\AnalysisWindow.xaml",
               "RelativeDocumentMoniker": "APIUI\\AnalysisWindow.xaml",
@@ -72,18 +118,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-10-12T12:55:42.609Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "MedicalServicesAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ILNAR\\Documents\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\4 \u041A\u0443\u0440\u0441\\\u041B\u0420\\\u0414\u0438\u043F\u043B\u043E\u043C\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "MedicalServicesAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T11:24:22.41Z"
             }
           ]
         }

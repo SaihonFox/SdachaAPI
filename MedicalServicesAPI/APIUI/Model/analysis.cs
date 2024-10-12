@@ -13,7 +13,7 @@ public partial class analysis
 
     public string? preparation { get; set; }
 
-    public DateTime results_after { get; set; }
+    public string results_after { get; set; } = null!;
 
     public string biomaterial { get; set; } = null!;
 

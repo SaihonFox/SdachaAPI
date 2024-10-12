@@ -20,7 +20,6 @@ public partial class MainWindow : Window
 			return;
 		}
 
-		MessageBox.Show($"Добро пожаловать, {user.surname} {user.name} {user.patronym}!");
 		new AnalysisWindow(user).Show();
 		Close();
 	}

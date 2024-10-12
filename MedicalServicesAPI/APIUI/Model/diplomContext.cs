@@ -81,7 +81,7 @@ public partial class diplomContext : DbContext
             entity.Property(e => e.name).HasColumnType("text");
             entity.Property(e => e.preparation).HasColumnType("text");
             entity.Property(e => e.price).HasPrecision(10, 2);
-            entity.Property(e => e.results_after).HasColumnType("datetime");
+            entity.Property(e => e.results_after).HasColumnType("text");
 
             entity.HasOne(d => d.analyses_category).WithMany(p => p.analyses)
                 .HasForeignKey(d => d.analyses_category_id)

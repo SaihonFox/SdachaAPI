@@ -8,11 +8,32 @@
 		WindowStartupLocation="CenterScreen"
 		Title="AnalysisWindow"
 		Height="450" Width="800">
+	<Window.Resources>
+		<Style x:Key="DataGridColumnHeaderStyle1" TargetType="DataGridColumnHeader">
+			<Setter Property="VerticalContentAlignment" Value="Center" />
+			<Setter Property="HorizontalContentAlignment" Value="Center" />
+			<Setter Property="FontWeight" Value="SemiBold" />
+			<Setter Property="FontSize" Value="16" />
+		</Style>
+	</Window.Resources>
 	<Grid>
-		<TextBox Margin="0,7.5" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="25" />
-		<DataGrid AutoGenerateColumns="False" Margin="0,40,0,0">
+		<Grid VerticalAlignment="Top" Height="40">
+			<TextBox Name="search" Margin="0,7.5" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" Height="25" />
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+				<ComboBox Width="150">
+					<ComboBoxItem Content="Наименование" />
+					<ComboBoxItem Content="Цена" />
+					<ComboBoxItem Content="Результаты через" />
+					<ComboBoxItem Content="Категория" />
+				</ComboBox>
+			</StackPanel>
+		</Grid>
+		<DataGrid ColumnHeaderStyle="{DynamicResource DataGridColumnHeaderStyle1}" Name="grid" ColumnWidth="*" AutoGenerateColumns="False" Margin="0,40,0,0">
 			<DataGrid.Columns>
-				<DataGridTextColumn Header="Название анализа" Binding="{Binding Name}" />
+				<DataGridTextColumn Header="Наименование анализа" Binding="{Binding name}" />
+				<DataGridTextColumn Header="Цена" Binding="{Binding price}" />
+				<DataGridTextColumn Header="Результаты через" Binding="{Binding results_after}" />
+				<DataGridTextColumn Header="Категория" Binding="{Binding analysis_category.name}" />
 			</DataGrid.Columns>
 		</DataGrid>
 	</Grid>
