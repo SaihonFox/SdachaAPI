@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Double",
+    "Projects": [
+      {
+        "Path": "MedicalServicesAPI\\MedicalServicesAPI.csproj",
+        "Action": "Start",
+        "DebugTarget": "https-launchless"
+      },
+      {
+        "Path": "APIUI\\APIUI.csproj",
+        "Action": "Start",
+        "DebugTarget": "APIUI"
+      }
+    ]
+  }
+]

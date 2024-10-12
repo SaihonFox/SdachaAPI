@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "v8hSFX8dTnX9VK4lpGsoCJdD6dMePBqhU3oQOIxEsM8=",
+  "Source": "MedicalServicesAPI",
+  "BasePath": "_content/MedicalServicesAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
