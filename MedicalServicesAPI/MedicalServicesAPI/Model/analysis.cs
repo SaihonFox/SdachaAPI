@@ -1,33 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace MedicalServicesAPI.Model;
 
-public partial class analysis
+public partial class Analysis
 {
-    public ulong id { get; set; }
+    public int Id { get; set; }
 
-    public string name { get; set; } = null!;
+    public string Name { get; set; } = null!;
 
-    public string? description { get; set; }
+    public string? Description { get; set; }
 
-    public string? preparation { get; set; }
+    public string? Preparation { get; set; }
 
-    public string results_after { get; set; } = null!;
+    public string ResultsAfter { get; set; } = null!;
 
-    public string biomaterial { get; set; } = null!;
+    public string Biomaterial { get; set; } = null!;
 
-    public decimal price { get; set; }
+    public decimal Price { get; set; }
 
-    public int analyses_category_id { get; set; }
-
-    [JsonIgnore]
-    public virtual ICollection<ad_block> ad_blocks { get; set; } = new List<ad_block>();
+    public int AnalysisCategory { get; set; }
 
     [JsonIgnore]
-	public virtual analysis_category analyses_category { get; set; } = null!;
+    public virtual ICollection<AdBlock> AdBlocks { get; set; } = [];
 
 	[JsonIgnore]
-	public virtual ICollection<patient_analysis_cart_item> patient_analysis_cart_items { get; set; } = new List<patient_analysis_cart_item>();
+	public virtual AnalysisCategory AnalysisCategoryNavigation { get; set; } = null!;
+
+	[JsonIgnore]
+	public virtual ICollection<PatientAnalysisCartItem> PatientAnalysisCartItems { get; set; } = [];
 }

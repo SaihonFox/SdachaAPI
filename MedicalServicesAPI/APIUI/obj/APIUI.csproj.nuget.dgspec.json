@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj": {}
+    "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj": {
+    "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj",
+        "projectUniqueName": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj",
         "projectName": "APIUI",
-        "projectPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj",
+        "projectPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj",
         "packagesPath": "C:\\Users\\ILNAR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\obj\\",
+        "outputPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -89,7 +89,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

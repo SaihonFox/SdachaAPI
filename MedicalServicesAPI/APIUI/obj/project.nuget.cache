@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zndqJPC3ZfQ=",
+  "dgSpecHash": "6qOfglEg/cE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj",
+  "projectFilePath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\APIUI\\APIUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ILNAR\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\ILNAR\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

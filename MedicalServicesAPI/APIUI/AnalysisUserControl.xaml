@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="APIUI.AnalysisUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:APIUI"
+             mc:Ignorable="d"
+			 MinWidth="200" MinHeight="150"
+			 Margin="5"
+             d:DesignHeight="200" d:DesignWidth="200">
+	<Border CornerRadius="10" Background="LightGray" Padding="5">
+		<StackPanel Orientation="Vertical">
+			<TextBlock Text="Наименование" FontWeight="SemiBold" />
+			<TextBlock Name="name" TextWrapping="WrapWithOverflow" />
+			<TextBlock Text="Цена" FontWeight="SemiBold" />
+			<TextBlock Name="price" />
+			<TextBlock Text="Результаты через" FontWeight="SemiBold" />
+			<TextBlock Name="results_after" />
+			<TextBlock Text="Категория" FontWeight="SemiBold" />
+			<TextBlock Name="category" />
+		</StackPanel>
+	</Border>
+</UserControl>

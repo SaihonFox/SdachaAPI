@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MedicalServicesAPI;
 
-public class Program
+internal static class Program
 {
-	public static diplomContext ctx = new();
+	public static readonly DiplomContext ctx = new();
 
 	public static void Main(string[] args)
 	{
@@ -40,20 +40,26 @@ public class Program
 
 	static void CtxLoad()
 	{
-		ctx.ad_blocks.Load();
+		ctx.AdBlocks.Load();
 
-		ctx.analyses.Load();
-		ctx.analysis_categories.Load();
-		ctx.analysis_orders.Load();
+		ctx.Analyses.Load();
+		ctx.AnalysisCategories.Load();
+		ctx.AnalysisOrders.Load();
 
-		ctx.messages.Load();
-		ctx.messages_messages.Load();
+		ctx.EmailLists.Load();
+		ctx.LoginLists.Load();
+		ctx.PassportLists.Load();
+		ctx.PhoneLists.Load();
 
-		ctx.patients.Load();
-		ctx.patient_analysis_addresses.Load();
-		ctx.patient_analysis_carts.Load();
-		ctx.patient_analysis_cart_items.Load();
+		ctx.Messages.Load();
+		ctx.MessagesMessages.Load();
 
-		ctx.users.Load();
+		ctx.Patients.Load();
+		ctx.PatientAnalysisAddresses.Load();
+		ctx.PatientAnalysisCarts.Load();
+		ctx.PatientAnalysisCartItems.Load();
+		ctx.PatientsDataLists.Load();
+
+		ctx.Users.Load();
 	}
 }

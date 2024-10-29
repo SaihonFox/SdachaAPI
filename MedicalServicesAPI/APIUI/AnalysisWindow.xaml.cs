@@ -7,29 +7,59 @@ namespace APIUI;
 
 public partial class AnalysisWindow : Window
 {
-	public user user;
+	public User user;
 
-	public AnalysisWindow(user user)
+	public AnalysisWindow(User user)
 	{
 		InitializeComponent();
 
 		this.user = user;
 
 		var list = API.AnalysesList();
+		var categoriesList = API.CategoryList();
+		foreach (var analysis in list)
+			analysis.AnalysisCategoryNavigation = categoriesList.First(c => c.Id == analysis.AnalysisCategory);
+
 		foreach (var analyse in list)
-			grid.Items.Add(analyse);
+			items_list.Items.Add(new AnalysisUserControl().SetData(analyse));
 
 		search.TextChanged += Search_TextChanged;
 
-		MessageBox.Show($"Добро пожаловать, {user.surname} {user.name} {user.patronym}!");
+		MessageBox.Show($"Добро пожаловать, {user.Surname} {user.Name} {user.Patronym}!");
+
+		sort_by.SelectionChanged += Sort_by_SelectionChanged;
+	}
+
+	private void Sort_by_SelectionChanged(object sender, SelectionChangedEventArgs e)
+	{
+		var list = API.AnalysesList();
+		var categoriesList = API.CategoryList();
+		foreach (var analysis in list)
+			analysis.AnalysisCategoryNavigation = categoriesList.First(c => c.Id == analysis.AnalysisCategory);
+
+		int index = sort_by.SelectedIndex;
+		items_list.Items.Clear();
+		list = index switch
+		{
+			0 => list.OrderBy(a => a.Name).ToList(),
+			1 => list.OrderBy(a => a.Price).ToList(),
+			2 => list.OrderBy(a => a.ResultsAfter).ToList(),
+			3 => list.OrderBy(a => a.AnalysisCategory).ToList(),
+		};
+		foreach (var analyse in list)
+			items_list.Items.Add(new AnalysisUserControl().SetData(analyse));
 	}
 
 	private void Search_TextChanged(object sender, TextChangedEventArgs e)
 	{
-		grid.Items.Clear();
+		items_list.Items.Clear();
 		var analyses = API.AnalysesList();
-		var list = analyses.Where(a => new[]{a.name, a.analyses_category.name, a.results_after, a.price.ToString()}.Any(s => s.Contains(search.Text.Trim(), StringComparison.CurrentCultureIgnoreCase)));
+		var categoriesList = API.CategoryList();
+		foreach (var analysis in analyses)
+			analysis.AnalysisCategoryNavigation = categoriesList.First(c => c.Id == analysis.AnalysisCategory);
+
+		var list = analyses.Where(a => new[]{a.Name, a.AnalysisCategoryNavigation.Name, a.ResultsAfter, a.Price.ToString()}.Any(s => s.Contains(search.Text.Trim(), StringComparison.CurrentCultureIgnoreCase))).ToList();
 		foreach (var a in list)
-			grid.Items.Add(a);
+			items_list.Items.Add(new AnalysisUserControl().SetData(a));
 	}
 }

@@ -2725,11 +2725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\MedicalServicesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\MedicalServicesAPI.csproj",
       "projectName": "MedicalServicesAPI",
-      "projectPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\MedicalServicesAPI.csproj",
+      "projectPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\MedicalServicesAPI.csproj",
       "packagesPath": "C:\\Users\\ILNAR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\ЛР\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\obj\\",
+      "outputPath": "C:\\Users\\ILNAR\\Documents\\Колледж\\4 Курс\\Лиана Рамилевна\\Диплом\\Programs\\API Test\\MedicalServicesAPI\\MedicalServicesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2817,7 +2817,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -3,31 +3,37 @@ using System.Collections.Generic;
 
 namespace MedicalServicesAPI.Model;
 
-public partial class user
+public partial class User
 {
-    public ulong id { get; set; }
+    public int Id { get; set; }
 
-    public string surname { get; set; } = null!;
+    public string Surname { get; set; } = null!;
 
-    public string name { get; set; } = null!;
+    public string Name { get; set; } = null!;
 
-    public string? patronym { get; set; }
+    public string? Patronym { get; set; }
 
-    public DateOnly birthday { get; set; }
+    public DateOnly Birthday { get; set; }
 
-    public string? passport { get; set; }
+    public int? PassportId { get; set; }
 
-    public string? phone { get; set; }
+    public int? PhoneId { get; set; }
 
-    public sbyte? post { get; set; }
+    public sbyte? Post { get; set; }
 
-    public string login { get; set; } = null!;
+    public int LoginId { get; set; }
 
-    public string password { get; set; } = null!;
+    public string Password { get; set; } = null!;
 
-    public byte[]? image { get; set; }
+    public byte[]? Image { get; set; }
 
-    public virtual ICollection<analysis_order> analysis_orders { get; set; } = new List<analysis_order>();
+    public virtual ICollection<AnalysisOrder> AnalysisOrders { get; set; } = new List<AnalysisOrder>();
 
-    public virtual ICollection<messages_message> messages_messages { get; set; } = new List<messages_message>();
+    public virtual LoginList Login { get; set; } = null!;
+
+    public virtual ICollection<MessagesMessage> MessagesMessages { get; set; } = new List<MessagesMessage>();
+
+    public virtual PassportList? Passport { get; set; }
+
+    public virtual PhoneList? Phone { get; set; }
 }

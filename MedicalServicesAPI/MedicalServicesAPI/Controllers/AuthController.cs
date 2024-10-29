@@ -9,11 +9,11 @@ namespace MedicalServicesAPI.Controllers;
 public class AuthController : ControllerBase
 {
 	[HttpGet("login")]
-	public ActionResult<user> Get([Required]string login, [Required]string password)
+	public ActionResult<User> Get([Required]string login, [Required]string password)
 	{
-		var users = Program.ctx.users.ToList();
-		user? finded_user;
-		if((finded_user = users.FirstOrDefault(u => u.password == password && u.login.Equals(login, StringComparison.CurrentCultureIgnoreCase))) != null)
+		var users = Program.ctx.Users.ToList();
+		User? finded_user;
+		if((finded_user = users.Find(u => u.Password == password && u.Login.Login.Equals(login, StringComparison.CurrentCultureIgnoreCase))) != null)
 			return Ok(finded_user);
 		return NotFound("User not found");
 	}

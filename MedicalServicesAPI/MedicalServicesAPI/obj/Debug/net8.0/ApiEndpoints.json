@@ -9,13 +9,29 @@
     "Parameters": [
       {
         "Name": "index",
-        "Type": "System.Int32",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MedicalServicesAPI.Controllers.AnalysesController",
+    "Method": "Post",
+    "RelativePath": "Analyses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "new_analysis_dto",
+        "Type": "MedicalServicesAPI.ModelPartial.AnalysisDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "MedicalServicesAPI.Model.analysis",
+        "Type": "MedicalServicesAPI.Model.Analysis",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -27,15 +43,52 @@
   },
   {
     "ContainingType": "MedicalServicesAPI.Controllers.AnalysesController",
-    "Method": "Get",
-    "RelativePath": "Analyses/list",
-    "HttpMethod": "GET",
+    "Method": "Put",
+    "RelativePath": "Analyses",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "analysis",
+        "Type": "MedicalServicesAPI.Model.Analysis",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IList\u00601[[MedicalServicesAPI.Model.analysis, MedicalServicesAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "MedicalServicesAPI.Model.Analysis",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MedicalServicesAPI.Controllers.AnalysesController",
+    "Method": "Delete",
+    "RelativePath": "Analyses",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MedicalServicesAPI.Model.Analysis",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -66,7 +119,33 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "MedicalServicesAPI.Model.user",
+        "Type": "MedicalServicesAPI.Model.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MedicalServicesAPI.Controllers.CategoriesController",
+    "Method": "Get",
+    "RelativePath": "Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "index",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MedicalServicesAPI.Model.AnalysisCategory",
         "MediaTypes": [
           "text/plain",
           "application/json",

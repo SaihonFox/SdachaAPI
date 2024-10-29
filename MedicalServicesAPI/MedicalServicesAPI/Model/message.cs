@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace MedicalServicesAPI.Model;
 
-public partial class message
+public partial class Message
 {
-    public ulong id { get; set; }
+    public int Id { get; set; }
 
-    public ulong patient_id { get; set; }
+    public int PatientId { get; set; }
 
-    public virtual ICollection<messages_message> messages_messages { get; set; } = new List<messages_message>();
+    public virtual ICollection<MessagesMessage> MessagesMessages { get; set; } = new List<MessagesMessage>();
 
-    public virtual patient patient { get; set; } = null!;
+    public virtual Patient Patient { get; set; } = null!;
 }
